@@ -1,0 +1,17 @@
+
+button {
+    border: none;
+    font-weight: bold;
+    color: var(--pink);
+    background: none;
+}
+
+.fat {
+    color: var(--white);
+    background: var(--pink);
+}
+
+.footer a{
+    color: var(--white);
+    text-decoration: none;
+}
