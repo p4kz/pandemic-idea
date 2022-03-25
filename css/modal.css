@@ -1,0 +1,95 @@
+
+#modal {
+    display: flex;
+    justify-content: center;    
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background: var(--black);
+}
+
+#modal .content {
+    margin-top: 12.8rem;
+    margin-bottom: 12.8rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+#modal .content h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#modal form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80rem;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.content form div:nth-child(3),
+.content form div:nth-child(4),
+.content form div:nth-child(5) {
+    grid-column: span 2;
+}
+
+form input, form textarea {
+    width: 100%;
+
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid var(--background);
+    outline: none;
+    font-size: 1.6rem;
+}
+
+form label {
+    font-weight: 600;
+    line-height: 3.2rem;
+    letter-spacing: 0.1rem;
+}
+
+form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 0.6rem;
+    transition: 0.5s;
+    font-weight: bolder;
+    color: var(--black);
+    background: var(--white);
+}
+
+form a:hover {
+    background: var(--background);
+    color: var(--white);
+    text-decoration: none;
+}
+
+form button {
+    grid-column: 2;
+    justify-self: end;
+    width: 15rem;
+    height: 4rem;
+    margin-top: 3.2rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    color: var(--black);
+    background: var(--white);   
+}
+
+form button:hover {
+    background: var(--background);
+    color: var(--white);
+    text-decoration: none;
+}

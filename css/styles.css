@@ -1,14 +1,65 @@
 
+#container {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    max-width:96rem;
+    overflow: hidden;
+    margin: 4rem auto;
+}
+
+.intro{
+    width: 30rem;
+    margin-right: 2rem;
+}
+
+main {
+    margin: 3.2rem 0 3.2rem 0;
+}
+
+main p{
+    margin: 1rem;
+}
+
 button {
     border: none;
-    font-weight: bold;
+    padding: 0.6rem;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;    
+    cursor: pointer;
     color: var(--pink);
     background: none;
 }
 
+button:hover {
+    text-decoration: underline;
+}
+
 .fat {
+    box-shadow: 0 0.8rem 1.6rem var(--black);
+    border-radius: 0.6rem;
+    width: 10.5rem;
+    transition: 0.5s;
     color: var(--white);
     background: var(--pink);
+}
+
+.fat:hover {
+    text-decoration: none;   
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.footer{
+    text-align: center;
 }
 
 .footer a{

@@ -1,0 +1,25 @@
+
+.idea {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    margin-right: 3.2rem;
+    margin-bottom: 1.2rem;
+    background: var(--black);
+}
+
+.idea img {
+    width: 10rem;
+    margin-right: 3.2rem;
+
+}
+
+.idea p {
+    margin: 0.8 0 ;
+    color: var(--white);
+}
+
+.description {
+    margin: 1.6rem 0;
+}
