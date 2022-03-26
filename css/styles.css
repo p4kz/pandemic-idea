@@ -8,7 +8,7 @@
     margin: 4rem auto;
 }
 
-.intro{
+.intro {
     width: 30rem;
     margin-right: 2rem;
 }
@@ -21,48 +21,17 @@ main p{
     margin: 1rem;
 }
 
-button {
-    border: none;
-    padding: 0.6rem;
-    transition: 0.5s;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    font-weight: bold;    
-    cursor: pointer;
-    color: var(--pink);
-    background: none;
-}
-
-button:hover {
-    text-decoration: underline;
-}
-
-.fat {
-    box-shadow: 0 0.8rem 1.6rem var(--black);
-    border-radius: 0.6rem;
-    width: 10.5rem;
-    transition: 0.5s;
-    color: var(--white);
-    background: var(--pink);
-}
-
-.fat:hover {
-    text-decoration: none;   
-    background-color: var(--white);
-    color: var(--black);
-}
-
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3rem;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
 
-.footer a{
+.footer a {
     color: var(--white);
     text-decoration: none;
 }

@@ -4,8 +4,10 @@
     justify-content: center;    
     position: absolute;
     top: 0;
-    width: 100vw;
-    min-height: 100vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
     background: var(--black);
 }
 
@@ -32,6 +34,10 @@
 #modal.hide {
     opacity: 0;
     visibility: hidden;
+}
+
+#modal.addScroll{
+    overflow: auto;
 }
 
 .content form div:nth-child(3),

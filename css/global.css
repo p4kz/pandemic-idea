@@ -21,6 +21,44 @@ body {
     color: var(--white);
 }
 
+body.hideScroll{
+    overflow: hidden;
+}
+
+button {
+    border: none;
+    padding: 0.6rem;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;    
+    cursor: pointer;
+    border-radius: 0.6rem;
+    color: var(--pink);
+    background: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.button {
+    box-shadow: 0 0.8rem 1.6rem var(--black);
+    border-radius: 0.6rem;
+    width: 10.5rem;
+    transition: 0.5s;
+    padding: 1rem;
+    color: var(--white);
+    background: var(--pink);
+}
+
+.button:hover {
+    text-decoration: none;   
+    background-color: var(--white);
+    color: var(--black);
+}
+
+
 .logo {
     width: 30rem;
 }

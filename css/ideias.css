@@ -1,0 +1,73 @@
+#page-ideas {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    max-width:96rem;
+    overflow: hidden;
+    margin: 4rem auto;
+}
+
+#page-ideas header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-ideas nav {
+    display: flex;
+    align-items: center;
+}
+
+#page-ideas nav li {
+    margin-right: 3.9rem;
+}
+
+
+#page-ideas img {
+    width: 20rem;
+}
+
+.title {
+    margin: 4.2rem 0;
+    text-align: center;
+}
+
+.title h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+section.ideas .idea {
+    margin:0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.intro {
+    width: 30rem;
+    margin-right: 2rem;
+}
+
+main {
+    margin: 3.2rem 0 3.2rem 0;
+}
+
+main p{
+    margin: 1rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: var(--white);
+    text-decoration: none;
+}
